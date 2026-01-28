@@ -16,5 +16,8 @@ INSERT TO ventas VALUES
 
 SELECT * FROM ventas;
 
+
 SELECT categoria, SUM(cantidad*precio) AS total_ventas
 FROM ventas GROUP BY categoria;
+
+SELECT * FROM ventas WHERE fecha>= '2025-03-01';
