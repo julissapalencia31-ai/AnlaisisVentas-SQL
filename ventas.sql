@@ -15,3 +15,6 @@ INSERT TO ventas VALUES
 (5, '2025-09-27', 'Rubor', 'Rostro', 58, 125.00); 
 
 SELECT * FROM ventas;
+
+SELECT categoria, SUM(cantidad*precio) AS total_ventas
+FROM ventas GROUP BY categoria;
