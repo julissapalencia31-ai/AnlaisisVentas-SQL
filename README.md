@@ -1,2 +1,2 @@
 # AnlaisisVentas-SQL
-Proyecto de un analisis de ventas en SQL
+Proyecto de un analisis de ventas en SQL y python
