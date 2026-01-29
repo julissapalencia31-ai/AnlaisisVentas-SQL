@@ -26,3 +26,6 @@ SELECT * FROM ventas WHERE fecha>= '2025-03-01';
 
 SELECT categoria, SUM(cantidad*precio) AS total_ventas
 FROM ventas WHERE fecha>='2025-02-15' GROUP BY categoria;
+
+SELECT categoria, SUM(cantidad* precio) AS total_ventas
+FROM vnetas WHERE fecha>='2025-03-01' GROUP BY categoria;
